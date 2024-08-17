@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Learning Object-Oriented Design Patterns with TypeScript",
   "devDependencies": {
     "@types/node": "^22.4.0",
     "typescript": "^5.5.4"
