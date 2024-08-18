@@ -1,6 +1,12 @@
-import factoryDemo from './CreationalPatterns/FactoryMethod/factory-demo.js';
-import singletonDemo from './CreationalPatterns/Singleton/singleton-demo.js';
+import { clientCode as abstractFactory } from './CreationalPatterns/AbstractFactory/client-code.js';
+import { clientCode as factoryMethod } from './CreationalPatterns/FactoryMethod/client-code.js';
+import { clientCode as singleton } from './CreationalPatterns/Singleton/client-code.js';
 
-singletonDemo();
+console.log('Singleton');
+singleton();
 
-factoryDemo();
+console.log('Factory Method');
+factoryMethod();
+
+console.log('Abstract Factory');
+abstractFactory();

@@ -1,14 +1,14 @@
 class Application {
-  private static instance: Application;
+  static #instance: Application;
 
   private constructor() {}
 
-  static getInstance(): Application {
-    if (!Application.instance) {
-      Application.instance = new Application();
+  public static get instance(): Application {
+    if (!Application.#instance) {
+      Application.#instance = new Application();
     }
 
-    return Application.instance;
+    return Application.#instance;
   }
 
   run(msg: string) {
