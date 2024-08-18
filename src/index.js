@@ -2,6 +2,7 @@ import { clientCode as abstractFactory } from './CreationalPatterns/AbstractFact
 import { clientCode as factoryMethod } from './CreationalPatterns/FactoryMethod/client-code.js';
 import { clientCode as singleton } from './CreationalPatterns/Singleton/client-code.js';
 import { clientCode as bridge } from './StructuralPatterns/Bridge/client-code.js';
+import { clientCode as composite } from './StructuralPatterns/Composite/client-code.js';
 
 console.log('Singleton');
 singleton();
@@ -14,3 +15,6 @@ abstractFactory();
 
 console.log('Bridge');
 bridge();
+
+console.log('Composite');
+composite();
