@@ -31,42 +31,28 @@ The repository is organized by different types of design patterns. Each design p
 - A brief explanation of the pattern.
 - TypeScript code demonstrating the pattern.
 - Example usage of the pattern.
-  ./src
-  ├── CreationalPatterns
-  │   ├── AbstractFactory
-  │   │   ├── abstract-factorys.ts
-  │   │   ├── client-code.ts
-  │   │   └── products.ts
-  │   ├── Builder
-  │   │   ├── Builders.ts
-  │   │   ├── Directors.ts
-  │   │   ├── Products.ts
-  │   │   └── client-code.ts
-  │   ├── FactoryMethod
-  │   │   ├── client-code.ts
-  │   │   ├── factorys.ts
-  │   │   └── products.ts
-  │   └── Singleton
-  │   ├── application.ts
-  │   └── client-code.ts
-  ├── StructuralPatterns
-  │   ├── Bridge
-  │   │   ├── abstractions.ts
-  │   │   ├── client-code.ts
-  │   │   └── implementations.ts
-  │   └── Composite
-  │   ├── client-code.ts
-  │   └── composite.ts
-  └── index.ts
+  Here's an overview of the `src` directory structure
+  - `CreationalPatterns/`
+    - `AbstractFactory/`
+    - `FactoryMethod/`
+    - `AbstractFactory/`
+    - `Builder/`
+  - `StructuralPatterns/`
+    - `Bridge/`
+    - `Composite/`
 
 ## Installation
 
-To run the examples in this repository, you need to have Node.js and TypeScript installed.
+To run the examples in this repository, you need to have Node.js, PNPM (Fast, disk space efficient package manager) and TypeScript installed.
 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/design-patterns-typescript.git
+   git clone https://github.com/thuraaung2493/design-patterns.git
 
-   cd design-patterns-typescript
+   cd design-patterns
+
+   pnpm install
+
+   pnpm run dev
    ```
