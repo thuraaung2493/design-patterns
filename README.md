@@ -47,12 +47,24 @@ To run the examples in this repository, you need to have Node.js, PNPM (Fast, di
 
 1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/thuraaung2493/design-patterns.git
+```bash
+ git clone https://github.com/thuraaung2493/design-patterns.git
+```
 
-   cd design-patterns
+2. Navigate to the project directory:
 
-   pnpm install
+```bash
+ cd design-patterns
+```
 
-   pnpm run dev
-   ```
+3. Install the dependencies:
+
+```bash
+  pnpm install
+```
+
+4. Run:
+
+```bash
+  pnpm run dev
+```
